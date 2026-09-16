@@ -1,7 +1,5 @@
-FROM alipine:latest
+FROM ubuntu:latest
 
-WORKDIR /app
-
-COPY data.txt .
+COPY data.txt / data2.txt .
 
 CMD ["cat", "data.txt"]
