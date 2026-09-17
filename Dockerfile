@@ -1,5 +1,5 @@
 FROM ubuntu:latest
 
-COPY data.txt / data2.txt .
+COPY data.txt  .
 
 CMD ["cat", "data.txt"]
